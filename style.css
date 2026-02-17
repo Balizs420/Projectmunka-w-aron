@@ -1,5 +1,8 @@
 body{margin: 0;
-background-color: black;}
+background-image: url(image.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-size: auto;}
 
 img{width: 1920px;
 height: 941px;
