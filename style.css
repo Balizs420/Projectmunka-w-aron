@@ -1,12 +1,49 @@
-body{background-color: rgb(29, 153, 255);
+body{background-color:white;
     margin: 0px;
+    text-align: justify;
 }
 
-.alap{
-    background-color:aliceblue;
-    width: 1000px;
-    height: 1000px;
-    margin: auto;
-    
-    
+header{margin: 0px;
+    background-color: black;
+    height: 70px;
 }
+div{width: 750px;
+float: right;}
+
+.menup{color: aliceblue;
+font-size: 140%;
+text-align:right;
+}
+
+a{color: aliceblue;
+text-decoration: none;
+padding: 0 20px 0 0;}
+
+.menukep{width: 70px;
+    height: 70px;
+    float: right;}
+
+.nem{padding: 0;}
+
+h1{margin: 10px 0px 20px 10px;
+font-size: 250%;}
+
+.fo_p{font-size: 150%;
+margin: 10px 10px 10px 10px;}
+
+.jobbra_kep{float: right;
+width: 500px;
+height: 500px;}
+
+.fenti{margin: 0px;
+    background-color: black;
+    height: 70px;}
+
+.lent{margin: 0px;
+    background-color: black;
+    height: 70px;}
+.mellek{font-size: 150%;
+margin: 10px 10px 88px 10px;}
+
+
+
