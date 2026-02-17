@@ -1,11 +1,11 @@
-body{margin: 0;
-background-image: url(image.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-size: auto;}
+body{background-color: rgb(29, 153, 255);
+    margin: 0px;
+}
 
-img{width: 1920px;
-height: 941px;
-margin: 0;}
-
-/*Balázs basza a Francit*\
+.alap{
+    background-color:aliceblue;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    
+}
