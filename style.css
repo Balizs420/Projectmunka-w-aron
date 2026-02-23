@@ -1,49 +1,96 @@
-body{background-color:white;
-    margin: 0px;
-    text-align: justify;
+body {
+  background-color: #f4f6f8;
+  margin: 0px;
+  text-align: justify;
 }
 
-header{margin: 0px;
-    background-color: black;
-    height: 70px;
+header {
+  margin: 0px;
+  background-color: black;
+  height: 70px;
 }
-div{width: 750px;
-float: right;}
-
-.menup{color: aliceblue;
-font-size: 140%;
-text-align:right;
+.menu {
+  width: 750px;
+  float: right;
 }
 
-a{color: aliceblue;
-text-decoration: none;
-padding: 0 20px 0 0;}
+.menup {
+  color: aliceblue;
+  font-size: 140%;
+  text-align: right;
+}
 
-.menukep{width: 70px;
-    height: 70px;
-    float: right;}
+a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
 
-.nem{padding: 0;}
+.menukep {
+  width: 70px;
+  height: 70px;
+  float: right;
+}
 
-h1{margin: 10px 0px 20px 10px;
-font-size: 250%;}
+.nem {
+  padding: 0;
+}
 
-.fo_p{font-size: 150%;
-margin: 10px 10px 10px 10px;}
+h1 {
+  margin: 10px 0px 20px 10px;
+  font-size: 250%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
 
-.jobbra_kep{float: right;
-width: 500px;
-height: 500px;}
+.fenti {
+  margin: 0px;
+  background-color: black;
+  height: 70px;
+}
 
-.fenti{margin: 0px;
-    background-color: black;
-    height: 70px;}
+.lent {
+  margin: 0px;
+  background-color: black;
+  height: 80px;
+}
 
-.lent{margin: 0px;
-    background-color: black;
-    height: 70px;}
-.mellek{font-size: 150%;
-margin: 10px 10px 88px 10px;}
+.mellek {
+  font-size: 150%;
+  margin: 10px 10px 50px 10px;
+}
 
+.kek {
+  background-color: #0c52a3;
+  height: 30px;
+}
 
+.fo_p {
+  font-size: 140%;
+  margin: 10px 10px 20px 10px;
+}
 
+.fo_doboz {
+  width: 1200px;
+  margin: auto;
+}
+
+table {
+  float: right;
+  height: 320px;
+  width: 300px;
+  margin: 20px 0px 0px 20px;
+}
+
+.jobbra_kep {
+  height: 319px;
+  width: 350px;
+}
+
+table,
+td {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-collapse: collapse;
+}
