@@ -1,96 +1,99 @@
 body {
-  background-color: #f4f6f8;
-  margin: 0px;
+  margin: 0;
+  background-color: rgb(240, 226, 226);
   text-align: justify;
 }
 
-header {
-  margin: 0px;
-  background-color: black;
+.felso_header {
+  width: auto;
   height: 70px;
+  background-color: rgb(163, 162, 162);
+  color: black;
+  margin: 0;
+  border-radius: 0 0 6% 6%;
+  margin: 0 0 0 0;
 }
-.menu {
-  width: 750px;
-  float: right;
-}
-
-.menup {
-  color: aliceblue;
-  font-size: 140%;
-  text-align: right;
-}
-
-a {
-  color: aliceblue;
-  text-decoration: none;
-  padding: 0 20px 0 0;
-}
-
-.menukep {
-  width: 70px;
-  height: 70px;
-  float: right;
-}
-
-.nem {
-  padding: 0;
-}
+.also_header{  width: auto;
+  height: auto;
+  background-color:black;
+  color: white;
+  margin: 0;
+  border-radius: 0 0 0 0;
+  margin: 0px 0 0 0;}
 
 h1 {
-  margin: 10px 0px 20px 10px;
-  font-size: 250%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
+  padding: 5px 0 0 0;
+  margin: 0;
+  font-size: 300%;
+}
+.div_h2{
+  width: 250px;
+  margin-top: 0;
+  padding: 20px 0 0 20px;
+  font-size: 170%;
+  margin: 0 100px 49px 0;
 }
 
-.fenti {
-  margin: 0px;
-  background-color: black;
-  height: 70px;
-}
-
-.lent {
-  margin: 0px;
-  background-color: black;
-  height: 80px;
-}
-
-.mellek {
-  font-size: 150%;
-  margin: 10px 10px 50px 10px;
-}
-
-.kek {
-  background-color: #0c52a3;
-  height: 30px;
-}
-
-.fo_p {
-  font-size: 140%;
-  margin: 10px 10px 20px 10px;
-}
-
-.fo_doboz {
-  width: 1200px;
+.fo_container {
   margin: auto;
+  width: 1400px;
+  height: auto;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 3cqmax 3cqmax;
 }
 
-table {
-  float: right;
-  height: 320px;
-  width: 300px;
-  margin: 20px 0px 0px 20px;
+.fo_bekezdes {
+  padding: 0 0 0 20px;
+  font-size: 140%;
 }
 
-.jobbra_kep {
-  height: 319px;
-  width: 350px;
+.planet_kep{width: 450px;
+height: 300px;
+margin: 0 0px 30px 50px;
+float: right;
+border-color: red;
+border-width: 0 0 3px 3px;
+border-style: dotted;
+
 }
 
-table,
-td {
-  border-color: black;
-  border-width: 3px;
-  border-style: solid;
-  border-collapse: collapse;
-}
+h3{padding: 0 0 0 20px;
+font-size: 150%;}
+
+.also_header_h2{margin: 0px 0 20px 20px;
+padding: 20px 0 0 0 ;}
+
+.also_header_div{width: 1000px;
+height: 70px;
+margin: 0 0 0 20px;}
+
+.also_header_logo_div{width: 60px;
+height: 60px;
+background-color:rgb(75, 75, 75) ;
+float: left;
+margin: 0 10px 0 0;
+border-radius: 30%;}
+
+#also_header_logo1{width: 60px;
+height: 60px;
+margin: 0 3px 0 0;
+padding: 0 5px 0 0;}
+#also_header_logo2{width: 50px;
+height: 55px;
+margin: 3px 0 0 5px ;}
+#also_header_logo3{width: 50px;
+height: 50px;
+margin: 4px 0 0 5px;}
+#also_header_logo4{width: 50px;
+height: 48px;
+margin: 4px 0 0 4px;}
+#also_header_logo5{width: 42px;
+height: 42px;
+margin: 10px 0 0 9px;}
+#also_header_logo6{width: 40px;
+height: 40px;
+margin: 11px 0 0 10.5px;}
+
+
