@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Awesome Website</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Reset & base */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: 'Roboto', sans-serif; background:#f5f5f5; color:#333; line-height:1.6; }
+    a { text-decoration:none; color: inherit; }
+
+    /* Header */
+    header { background:#4f46e5; color:white; padding:1rem 2rem; position:sticky; top:0; z-index:100; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+    header h1 { font-family: 'Playfair Display', serif; font-size:2rem; }
+
+    nav { margin-top:0.5rem; }
+    nav a { margin-right:1.5rem; font-weight:500; transition:0.3s; }
+    nav a:hover { color:#facc15; }
+
+    /* Hero Section */
+    .hero { display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:4rem 2rem; background:linear-gradient(135deg,#4f46e5,#8b5cf6); color:white; }
+    .hero h2 { font-size:3rem; margin-bottom:1rem; font-family: 'Playfair Display', serif; }
+    .hero p { font-size:1.2rem; max-width:600px; margin-bottom:2rem; }
+
+    .hero button { background:#facc15; border:none; padding:0.8rem 2rem; font-size:1rem; font-weight:700; border-radius:8px; cursor:pointer; transition:0.3s; }
+    .hero button:hover { background:#eab308; }
+
+    /* Sections */
+    section { padding:4rem 2rem; max-width:1000px; margin:0 auto; }
+    section h3 { font-size:2rem; margin-bottom:1rem; font-family: 'Playfair Display', serif; text-align:center; color:#4f46e5; }
+    section p { text-align:center; max-width:700px; margin:0 auto 2rem; }
+
+    /* Cards */
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:2rem; margin-top:2rem; }
+    .card { background:white; padding:2rem; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); transition:0.3s; text-align:center; }
+    .card:hover { transform:translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.15); }
+    .card h4 { margin-bottom:1rem; color:#4f46e5; }
+
+    /* Footer */
+    footer { background:#111827; color:white; text-align:center; padding:2rem; }
+    footer p { margin-bottom:1rem; }
+
+    /* Buttons */
+    .btn { background:#4f46e5; color:white; padding:0.8rem 1.5rem; border-radius:8px; font-weight:700; transition:0.3s; cursor:pointer; }
+    .btn:hover { background:#6366f1; }
+
+    /* Responsive */
+    @media(max-width:600px){
+      .hero h2 { font-size:2rem; }
+      section h3 { font-size:1.5rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Awesome Website</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Welcome to Your Modern Website</h2>
+    <p>Create amazing websites using just HTML, CSS, and a little JavaScript. Fully responsive, sleek, and professional.</p>
+    <button onclick="scrollToSection('about')">Learn More</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h3>About This Site</h3>
+    <p>This website is fully responsive, mobile-friendly, and visually modern. Perfect for your projects or portfolio.</p>
+    <div class="cards">
+      <div class="card">
+        <h4>Fast</h4>
+        <p>Optimized code ensures quick loading on all devices.</p>
+      </div>
+      <div class="card">
+        <h4>Responsive</h4>
+        <p>Looks great on mobile, tablet, and desktop screens.</p>
+      </div>
+      <div class="card">
+        <h4>Beautiful</h4>
+        <p>Modern design with gradient backgrounds, shadows, and hover effects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h3>Features</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Custom Buttons</h4>
+        <p>Interactive buttons with hover animations.</p>
+      </div>
+      <div class="card">
+        <h4>Sticky Header</h4>
+        <p>Header stays visible while scrolling for easy navigation.</p>
+      </div>
+      <div class="card">
+        <h4>Interactive Hero</h4>
+        <p>Click the button to jump to any section smoothly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h3>Contact Me</h3>
+    <p>Want to get in touch? Click the button below to see a cool alert!</p>
+    <div style="text-align:center;">
+      <button class="btn" onclick="alert('Thanks for visiting!')">Say Hi 👋</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Awesome Website</p>
+    <p>Made with ❤️ using Notepad</p>
+  </footer>
+
+  <script>
+    function scrollToSection(id){
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
