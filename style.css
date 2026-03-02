@@ -2,44 +2,47 @@ body {
   margin: 0;
   background-color: rgb(240, 226, 226);
   text-align: justify;
- font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
+  height: auto;
 }
 
 .felso_header {
   width: 1500px;
   height: 70px;
-  background-color: #B5B3B4;
+  background-color: #b5b3b4;
   color: black;
   border-radius: 9999px;
-  margin: 15px auto 20px auto;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  display: inline-block;
 }
-.also_header{  width: auto;
+.also_header {
+  width: auto;
   height: auto;
-  background-color:black;
+  background-color: black;
   color: white;
   margin: 0;
   border-radius: 0 0 0 0;
   margin: 100px 0 0 0;
 }
 
-.terkep_a{margin: 0;
+.terkep_a {
+  margin: 0;
   padding: 22px 0px 0px 40px;
-  display:inline-block;
+  display: inline-block;
   width: 100px;
   height: 20px;
   text-decoration: none;
   color: black;
-  
-
 }
-.terkep_bekezdes{
+.terkep_bekezdes {
   margin: 0;
   height: 7px;
   width: 100px;
   font-size: 140%;
 }
-
 
 h1 {
   text-align: center;
@@ -50,9 +53,11 @@ h1 {
   width: 370px;
   float: right;
 }
-span{font-weight: bold;}
+span {
+  font-weight: bold;
+}
 
-.div_h2{
+.div_h2 {
   width: 250px;
   margin-top: 0;
   padding: 20px 0 0 20px;
@@ -61,12 +66,11 @@ span{font-weight: bold;}
 }
 
 .fo_container {
-  margin: 200px 0 0 0 ;
+  margin: 105px auto 0 auto;
   display: block;
   width: 1400px;
   height: auto;
   background-color: white;
-  margin: 0 auto;
   border-radius: 3cqmax 3cqmax;
 }
 
@@ -75,54 +79,72 @@ span{font-weight: bold;}
   font-size: 140%;
 }
 
-.planet_kep{width: 450px;
-height: 300px;
-margin: 0 0px 30px 50px;
-float: right;
-border-color: rgb(73, 73, 73);
-border-width: 0 0 6px 6px;
-border-style:double;
-border-radius: 10%;
-background-color: rgb(73, 73, 73);
-
+.planet_kep {
+  width: 450px;
+  height: 300px;
+  margin: 0 0px 30px 50px;
+  float: right;
+  border-color: rgb(73, 73, 73);
+  border-width: 0 0 6px 6px;
+  border-style: double;
+  border-radius: 10%;
+  background-color: rgb(73, 73, 73);
 }
 
-h3{padding: 0 0 0 20px;
-font-size: 150%;}
+h3 {
+  padding: 0 0 0 20px;
+  font-size: 150%;
+}
 
-.also_header_h2{margin: 0px 0 10px 20px;
-padding: 20px 0 0 0 ;
-font-family: 'Montserrat', sans-serif;;}
+.also_header_h2 {
+  margin: 0px 0 10px 20px;
+  padding: 20px 0 0 0;
+  font-family: "Montserrat", sans-serif;
+}
 
-.also_header_div{width: 1000px;
-height: 70px;
-margin: 0 0 0 20px;}
+.also_header_div {
+  width: 1000px;
+  height: 70px;
+  margin: 0 0 0 20px;
+}
 
-.also_header_logo_div{width: 60px;
-height: 60px;
-background-color:rgb(75, 75, 75) ;
-float: left;
-margin: 0 10px 0 0;
-border-radius: 30%;}
+.also_header_logo_div {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(75, 75, 75);
+  float: left;
+  margin: 0 10px 0 0;
+  border-radius: 30%;
+}
 
-#also_header_logo1{width: 60px;
-height: 60px;
-margin: 0 3px 0 0;
-padding: 0 5px 0 0;}
-#also_header_logo2{width: 50px;
-height: 55px;
-margin: 3px 0 0 5px ;}
-#also_header_logo3{width: 50px;
-height: 50px;
-margin: 4px 0 0 5px;}
-#also_header_logo4{width: 50px;
-height: 48px;
-margin: 4px 0 0 4px;}
-#also_header_logo5{width: 42px;
-height: 42px;
-margin: 10px 0 0 9px;}
-#also_header_logo6{width: 40px;
-height: 40px;
-margin: 11px 0 0 10.5px;}
-
-
+#also_header_logo1 {
+  width: 60px;
+  height: 60px;
+  margin: 0 3px 0 0;
+  padding: 0 5px 0 0;
+}
+#also_header_logo2 {
+  width: 50px;
+  height: 55px;
+  margin: 3px 0 0 5px;
+}
+#also_header_logo3 {
+  width: 50px;
+  height: 50px;
+  margin: 4px 0 0 5px;
+}
+#also_header_logo4 {
+  width: 50px;
+  height: 48px;
+  margin: 4px 0 0 4px;
+}
+#also_header_logo5 {
+  width: 42px;
+  height: 42px;
+  margin: 10px 0 0 9px;
+}
+#also_header_logo6 {
+  width: 40px;
+  height: 40px;
+  margin: 11px 0 0 10.5px;
+}
