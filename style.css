@@ -2,16 +2,17 @@ body {
   margin: 0;
   background-color: rgb(240, 226, 226);
   text-align: justify;
+ font-family: 'Montserrat', sans-serif;
+
 }
 
 .felso_header {
-  width: auto;
+  width: 1500px;
   height: 70px;
-  background-color: rgb(163, 162, 162);
+  background-color: #B5B3B4;
   color: black;
-  margin: 0;
-  border-radius: 0 0 6% 6%;
-  margin: 0 0 0 0;
+  border-radius: 9999px;
+  margin: 15px auto 20px auto;
 }
 .also_header{  width: auto;
   height: auto;
@@ -21,12 +22,29 @@ body {
   border-radius: 0 0 0 0;
   margin: 0px 0 0 0;}
 
+.terkep_a{margin: 25px 20px 1 40px;
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+
+}
+.terkep_bekezdes{
+  margin: 0;
+  height: 7px;
+  width: 100px;
+}
+
 h1 {
   text-align: center;
-  padding: 5px 0 0 0;
-  margin: 0;
+  padding: 0 0 0 0;
+  margin: auto 600px auto 0;
   font-size: 300%;
+  font-weight: normal;
+  width: 370px;
+  float: right;
 }
+span{font-weight: bold;}
+
 .div_h2{
   width: 250px;
   margin-top: 0;
@@ -64,8 +82,9 @@ background-color: rgb(73, 73, 73);
 h3{padding: 0 0 0 20px;
 font-size: 150%;}
 
-.also_header_h2{margin: 0px 0 20px 20px;
-padding: 20px 0 0 0 ;}
+.also_header_h2{margin: 0px 0 10px 20px;
+padding: 20px 0 0 0 ;
+font-family: 'Montserrat', sans-serif;;}
 
 .also_header_div{width: 1000px;
 height: 70px;
