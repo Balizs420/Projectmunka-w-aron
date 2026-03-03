@@ -1,0 +1,67 @@
+body{margin: 0;
+font-family: "Montserrat", sans-serif;
+text-align: justify;}
+
+.terkep_a {
+  margin: 0;
+  padding: 22px 0px 0px 40px;
+  display: inline-block;
+  width: 300px;
+  height: 20px;
+  text-decoration: none;
+  color: black;
+}
+.terkep_bekezdes {
+  margin: 0;
+  height: 7px;
+  width: 300px;
+  font-size: 140%;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 8px 600px auto 0;
+  font-size: 300%;
+  font-weight: normal;
+  width: 370px;
+  float: right;
+}
+span {
+  font-weight: bold;
+}
+
+.masodik_header{width: 1920px;
+height: 300px;
+background-color: #1E1D14;
+color: white;
+margin: 100px 0 0 0 ;}
+
+
+.p1{text-align: center;
+font-size: 150%;
+padding: 100px;}
+
+#bekezdes1{}
+#bekezdes2{padding: 0 0 0 0px;
+}
+#bekezdes3{padding: 0 0 0 0px;}
+#bekezdes4{display: ruby-text;
+margin: 20px 0 0 0;}
+
+#terkep{margin: 0 300px 0 0;
+display: block;
+width:1920px ;}
+
+.felso_header {
+  width: 1500px;
+  height: 70px;
+  background-color: #b5b3b4;
+  color: black;
+  border-radius: 9999px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  display: inline-block;
+}
