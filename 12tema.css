@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.felso_header {
+  width: 1500px;
+  height: 70px;
+  background-color: #b5b3b4;
+  color: black;
+  border-radius: 9999px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  display: inline-block;}
+
+  .fooldal_gomb{padding: 0;
+margin: 0;
+width: 300px;}
+
+  .fooldal_gomb_a{margin: 0;
+    padding: 0;
+    width: 400px;}
+
+  .oldal_gombok_divek{width: 400px;
+height: 70px;}
+
+  .terkep_a {
+  margin: 0;
+  padding: ;
+  display: inline-block;
+  width: 300px;
+  height: 20px;
+  text-decoration: none;
+  color: black;
+}
+.terkep_bekezdes {
+  margin: 0;
+  height: 7px;
+  width: 300px;
+  font-size: 140%;
+}
+#felso_h1 {
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 8px 600px auto 0;
+  font-size: 300%;
+  font-weight: normal;
+  width: 370px;
+  float: right;}
+
+ span {
+  font-weight: bold;
+}
