@@ -55,22 +55,49 @@ margin: 100px 0 0 0 ;}
 height: 1000px;
 background-color: #1E1D14;}
 
-#kerdes_h1{padding: 100px 0 0 650px;
+#kerdes_h1{padding: 100px 0 0 625px;
 font-size: 300%;
 width: 700px;
 color: white;
 margin: 0 0 100px 0;}
 
-.kerdes_kis_div_1{
+.doboz{
   width: 800px;
-  height: 300px;
+  height: 70px;
+  overflow: hidden;
+  transition: height 0.5s ease;
   background-color: #35342C;
   display: block;
   margin: 0 auto 0 auto;
   border-radius: 20px;
   border: 1px solid rgba(255,255,255,0.4);
   box-shadow: 0 0 15px rgba(255,255,255,0.15);
+  color: white;
 }
+.doboz.nyitva{
+  height: 230px;
+}
+
+#gomb{float: right;
+margin: 6.5px 0px 0 0;
+background-color: #35342C;
+border: none;
+
+}
+#kep{
+  transition: 0.7s;
+}
+.kep.fordit{
+  transform:rotate(45deg);
+}
+
+
+#doboz_h1{
+  padding: 17px 0 0 13px;
+  margin: 0;
+}
+
+#doboz_p1{padding: 0 0 0 10px;}
 
 
 .p1{text-align: center;
