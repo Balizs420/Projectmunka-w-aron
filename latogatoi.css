@@ -1,7 +1,8 @@
-body{margin: 0;
+body {
+  margin: 0;
   height: auto;
   width: auto;
-font-family: "Montserrat", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .terkep_a {
@@ -44,75 +45,142 @@ span {
   display: inline-block;
 }
 
+.masodik_header {
+  width: 1920px;
+  height: 300px;
+  background-color: #1e1d14;
+  color: white;
+  margin: 100px 0 0 0;
+}
 
-.masodik_header{width: 1920px;
-height: 300px;
-background-color: #1E1D14;
-color: white;
-margin: 100px 0 0 0 ;}
+.kerdes_div {
+  width: auto;
+  height: 1000px;
+  background-color: #1e1d14;
+}
 
-.kerdes_div{width: auto;
-height: 1000px;
-background-color: #1E1D14;}
+#kerdes_h1 {
+  padding: 100px 0 0 625px;
+  font-size: 300%;
+  width: 700px;
+  color: white;
+  margin: 0 0 100px 0;
+}
 
-#kerdes_h1{padding: 100px 0 0 625px;
-font-size: 300%;
-width: 700px;
-color: white;
-margin: 0 0 100px 0;}
-
-.doboz{
+.doboz {
   width: 800px;
   height: 70px;
   overflow: hidden;
   transition: height 0.5s ease;
-  background-color: #35342C;
+  background-color: #35342c;
   display: block;
   margin: 0 auto 0 auto;
   border-radius: 20px;
-  border: 1px solid rgba(255,255,255,0.4);
-  box-shadow: 0 0 15px rgba(255,255,255,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
   color: white;
 }
-.doboz.nyitva{
-  height: 230px;
+.doboz.nyitva {
+  height: 305px;
 }
 
-#gomb{float: right;
-margin: 6.5px 0px 0 0;
-background-color: #35342C;
-border: none;
-
+.doboz2 {
+  width: 800px;
+  height: 68px;
+  overflow: hidden;
+  transition: height 0.5s ease;
+  background-color: #35342c;
+  display: block;
+  margin: 15px auto 0 auto;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+  color: white;
 }
-#kep{
+
+.doboz2.nyitva2 {
+  height: 180px;
+}
+
+#kep {
   transition: 0.7s;
 }
-.kep.fordit{
-  transform:rotate(45deg);
+.kep.fordit {
+  transform: rotate(45deg);
+}
+#kep2 {
+  transition: 0.7s;
+}
+.kep2.fordit2 {
+  transform: rotate(45deg);
 }
 
+#gomb {
+  float: right;
+  margin: 6.5px 0px 0 0;
+  background-color: #35342c;
+  border: none;
+}
 
-#doboz_h1{
-  padding: 17px 0 0 13px;
+#doboz_h1 {
+  padding: 22px 0 0 18px;
   margin: 0;
+  font-size: 160%;
 }
 
-#doboz_p1{padding: 0 0 0 10px;}
-
-
-.p1{text-align: center;
-font-size: 150%;
-padding: 100px;}
-
-#bekezdes1{}
-#bekezdes2{padding: 0 0 0 0px;
+#doboz_p1 {
+  padding: 0 0 0 18px;
+  font-size: 120%;
 }
-#bekezdes3{padding: 0 0 0 0px;}
-#bekezdes4{display: ruby-text;
-margin: 20px 0 0 0;}
 
-#terkep{margin: 0 ;
-display: block;
-height: 1100px;
-width:1920px ;}
+#doboz1_span1 {
+  padding: 0 0 0 18px;
+  font-size: 120%;
+  display: block;
+  margin: 0 0 0 0;
+}
 
+#doboz1_span2 {
+  margin: 0 0 20px 0;
+  display: block;
+}
+
+#doboz2_span1{
+  margin: 0;
+  display: block;
+  padding: 0 0 0 18px;
+  font-size: 120%;
+  
+}
+#doboz2_span2{
+   margin: 0;
+  display: block;
+  padding: 0 0 0 18px;
+  font-size: 120%;
+}
+
+.p1 {
+  text-align: center;
+  font-size: 150%;
+  padding: 100px;
+}
+
+#bekezdes1 {
+}
+#bekezdes2 {
+  padding: 0 0 0 0px;
+}
+#bekezdes3 {
+  padding: 0 0 0 0px;
+}
+#bekezdes4 {
+  display: ruby-text;
+  margin: 20px 0 0 0;
+}
+
+#terkep {
+  margin: 0;
+  display: block;
+  height: 1100px;
+  width: 1920px;
+}
