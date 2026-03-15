@@ -134,8 +134,8 @@ span {
 }
 
 #doboz1_span1 {
-  padding: 0 0 0 18px;
-  font-size: 120%;
+  padding: 0 0 0 0;
+  font-size: 100%;
   display: block;
   margin: 0 0 0 0;
 }
@@ -183,4 +183,10 @@ span {
   display: block;
   height: 1100px;
   width: 1920px;
+}
+
+#gombi{
+  margin: 100px 0 0 400px;
+  width: 200px;
+  height: 100px;
 }
