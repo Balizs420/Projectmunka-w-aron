@@ -68,7 +68,7 @@ span {
 }
 
 .doboz {
-  width: 800px;
+  width: 900px;
   height: 70px;
   overflow: hidden;
   transition: height 0.5s ease;
@@ -85,7 +85,7 @@ span {
 }
 
 .doboz2 {
-  width: 800px;
+  width: 900px;
   height: 68px;
   overflow: hidden;
   transition: height 0.5s ease;
@@ -102,6 +102,24 @@ span {
   height: 180px;
 }
 
+.doboz3{
+   width: 900px;
+  height: 68px;
+  overflow: hidden;
+  transition: height 0.5s ease;
+  background-color: #35342c;
+  display: block;
+  margin: 15px auto 0 auto;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+.doboz3.nyitva3{
+  height: 1000px;
+}
+
 #kep {
   transition: 0.7s;
 }
@@ -112,6 +130,13 @@ span {
   transition: 0.7s;
 }
 .kep2.fordit2 {
+  transform: rotate(45deg);
+}
+#kep3{
+  transition: 0.7s;
+  
+}
+.kep3.fordit3 {
   transform: rotate(45deg);
 }
 
@@ -125,7 +150,7 @@ span {
 #doboz_h1 {
   padding: 22px 0 0 18px;
   margin: 0;
-  font-size: 160%;
+  font-size: 150%;
 }
 
 #doboz_p1 {
@@ -157,6 +182,20 @@ span {
   display: block;
   padding: 0 0 0 18px;
   font-size: 120%;
+}
+
+#doboz2_h1{
+  font-size: 150%;
+  padding: 7px 0 0 18px;
+}
+
+
+.doboz3_p1{
+ padding: 0 0 0 18px;
+}
+
+.doboz3_h2{
+  padding: 0 0 0 18px;
 }
 
 .p1 {

@@ -1,5 +1,3 @@
-let toggled = false;
-
 function myfunction() {
 
     let div = document.getElementById('doboz');
@@ -8,9 +6,6 @@ function myfunction() {
     let kepecske = document.getElementById("kep");
     kepecske.classList.toggle("fordit")
 }
-
-let toggled2 = false;
-
 function myfunction2() {
 
     let div2 = document.getElementById('doboz2');
@@ -18,6 +13,15 @@ function myfunction2() {
 
     let kepecske2 = document.getElementById("kep2");
     kepecske2.classList.toggle("fordit2")
+
+}
+function myfunction3() {
+
+    let div3 = document.getElementById('doboz3');
+    div3.classList.toggle('nyitva3')
+
+    let kepecske3 = document.getElementById("kep3");
+    kepecske3.classList.toggle("fordit3")
 
 }
 
