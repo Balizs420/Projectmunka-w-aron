@@ -55,12 +55,12 @@ span {
 
 .kerdes_div {
   width: auto;
-  height: 1000px;
+  height: 1230px;
   background-color: #1e1d14;
 }
 
 #kerdes_h1 {
-  padding: 100px 0 0 625px;
+  padding: 100px 0 0 640px;
   font-size: 300%;
   width: 700px;
   color: white;
@@ -117,7 +117,7 @@ span {
 }
 
 .doboz3.nyitva3{
-  height: 1000px;
+  height: 770px;
 }
 
 #kep {
@@ -192,11 +192,30 @@ span {
 
 .doboz3_p1{
  padding: 0 0 0 18px;
+ margin: auto 0 0 0;
 }
 
 .doboz3_h2{
   padding: 0 0 0 18px;
+  margin: 15px 0 -12px 0;
+  font-size: 110%;
+  text-decoration: underline;
 }
+.doboz3_p2{
+  padding: 0 0 0 18px;
+}
+#doboz3_a{
+  padding: 10px 0 0 18px;
+  display: inline-block;
+  color: white;
+}
+.doboz3_p3{
+  padding: 0 0 0 18px;
+}
+.doboz3_p4{
+  padding: 0 0 0 18px;
+}
+
 
 .p1 {
   text-align: center;
