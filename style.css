@@ -151,12 +151,19 @@ h3 {
 .tizenketto {
   font-size: 23px;
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: black;
+  
 }
 .theme {
   text-align: center;
   font-size: 33px;
   color: black;
   
+}
+a {
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 0, 0);
+  text-decoration-thickness: 1.7px;
+  text-underline-offset: 3px;
 }

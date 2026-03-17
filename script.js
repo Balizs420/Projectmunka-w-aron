@@ -23,5 +23,7 @@ function myfunction3() {
     let kepecske3 = document.getElementById("kep3");
     kepecske3.classList.toggle("fordit3")
 
+    
+
 }
 
