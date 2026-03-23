@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{background-color: black;}
+
+#bekezdes {
+  font-size: 300%;
+  text-align: center;
+  margin: 300px 0 0 0;
+  color: white;
+}
+
+#gomb {
+font-size: 300%;
+  margin: 0 auto;
+  display: block;
+  background-color: #35342c;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+}
+
+

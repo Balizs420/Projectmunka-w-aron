@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  margin: 0;
+  background-color: rgb(240, 226, 226);
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  height: auto;
+}
+
+.felso_header {
+  width: 1500px;
+  height: 70px;
+  background-color: #b5b3b4;
+  color: black;
+  border-radius: 9999px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  display: inline-block;}
+
+.fooldal_gomb_a{margin: 0;
+  padding: 22px 0px 0px 40px;
+  display: inline-block;
+  width: 300px;
+  height: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.fooldal_gomb{
+  margin: 0;
+  height: 7px;
+  width: 300px;
+  font-size: 140%;
+}
+.oldal_gombok_divek{width: 400px;
+height: 70px;}
+
+.terkep_a {
+  margin: 0;
+  padding: 22px 0px 0px 40px;
+  display: inline-block;
+  width: 300px;
+  height: 20px;
+  text-decoration: none;
+  color: black;
+  float: right;
+}
+.terkep_bekezdes {
+  margin: 0;
+  height: 7px;
+  width: 300px;
+  font-size: 140%;
+  
+}
+#felso_h1 {
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 8px 250px auto 0;
+  font-size: 300%;
+  font-weight: normal;
+  width: 370px;
+  float: right;}
+
+ span {
+  font-weight: bold;
+}
+.container{
+  margin: 105px 0 0 249px;
+  display: block;
+  width: 1400px;
+  height: auto;
+  background-color: white;
+  border-radius: 3cqmax 3cqmax 0 3cqmax ;
+}
