@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   height: auto;
   width: auto;
   font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +33,7 @@ body {
 span {
   font-weight: bold;
 }
-.felso_header {
+main {
   width: 1500px;
   height: 70px;
   background-color: #b5b3b4;
@@ -70,7 +70,7 @@ span {
 .doboz {
   width: 900px;
   height: 70px;
-  overflow: hidden;
+ overflow: hidden;
   transition: height 0.5s ease;
   background-color: #35342c;
   display: block;
@@ -237,9 +237,9 @@ span {
 }
 
 #terkep {
-  margin: 0;
+  margin: 0 auto;
   display: block;
-  height: 1100px;
+ /* height: 1100px;*/
   width: 1920px;
 }
 
